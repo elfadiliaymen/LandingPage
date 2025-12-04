@@ -1,0 +1,155 @@
+
+.container {
+    display: grid;
+    height: 2500px;
+    grid-template-rows: 80px 500px 700px auto 500px ;
+}
+
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+}
+header button {
+    background-color: rgb(46, 82, 197) ;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid white;
+}
+
+.logo{
+    width: 60px;
+    height: 40px;
+}
+
+
+.logo{
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(39, 24, 122);
+    flex-direction: column;
+     background-color: rgb(245, 245, 250);
+ 
+}
+main button {
+    background-color: rgb(46, 82, 197) ;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+     border: 1px solid white;
+}
+
+.firstBak{
+    width: 100%;
+    height: 400px;
+    
+}
+
+section {
+   background-color: rgb(245, 245, 250);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    color:  rgb(19, 25, 45);
+}
+section h1{
+    color: rgb(39, 24, 122);
+}
+
+.choix{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.d{
+  height: 100px;
+  width: 200px;
+
+}
+.secBack{
+    width: 100%;
+    height: 400px;
+    margin-top: 90px;
+}
+.rating{
+   background-color: rgb(245, 245, 250);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+
+.rates{
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    gap: 12px;
+    width: 700px;
+    padding-bottom: 20px;
+    scroll-snap-type: x mandatory;
+
+}
+.r{
+    margin-top: 0px;
+    color: rgb(191, 182, 240);
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+    background-color:rgb(39, 24, 122) ;
+    flex-shrink: 0;
+     scroll-snap-align: start;
+ 
+}
+.rating button{
+     font-display: flex;
+    align-self: center;
+    margin-top: 10px;
+       background-color: rgb(46, 82, 197) ;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+     border: 1px solid white;
+
+}
+.box{
+   
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 360px;
+}
+
+
+footer{
+       background-color:rgb(36, 27, 82) ;
+       margin-top: 40px;
+       color: rgb(243, 247, 251);
+       display: flex;
+       justify-content: center;
+       gap: 60px;
+}
+
+footer div {
+    margin-top: 20px;
+}
+
